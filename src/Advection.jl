@@ -48,7 +48,7 @@ function advection!(
             w2v[j, i] = v;
         end
     end
-    w1u .= w2u;
-    w1v .= w2v;
+    w1u[2: case.N_-1, 2: case.N_-1] .= w2u[2: case.N_-1, 2: case.N_-1];
+    w1v[2: case.N_-1, 2: case.N_-1] .= w2v[2: case.N_-1, 2: case.N_-1];
     return 0;
 end
