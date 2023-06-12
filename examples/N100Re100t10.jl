@@ -11,7 +11,7 @@
 include("..//src//Simulation.jl");
 
 cavity_len::Float64 = 1.;
-N::Int64 = 100;
+N::Int64 = 256;
 Re::Float64 = 100.;
 u_upper::Float64 = 1.;
 dt::Float64 = 0.005;
