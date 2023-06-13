@@ -18,39 +18,35 @@ The code was written in December 2022 when I studying FFD. Now I try to make it 
 
 ## $Re=100$
 
-<figure>
+<figure class="half">
 <center>
-<img src="./image/Re100/u.gif" width=200/>
-<img src="./image/Re100/v.gif" width=200/>
+<img src="./image/Re100/u.gif" width=200/><img src="./image/Re100/v.gif" width=200/>
 
 gif of the contour for $u$ and $v$
 </center>
 </figure
 
-<figure>
+<figure class="half">
 <center>
-<img src="./image/Re100/streamline.png" width=200/>
-<img src="./image/Re100/u_middle.png" width=240/>
+<img src="./image/Re100/streamline.png" width=200/><img src="./image/Re100/u_middle.png" width=240/>
 
-streaml line and $u$ at the middle of the cavity
+stream line and $u$ at the middle of the cavity
 </center>
 </figure>
 
 ## $Re=400$
 
-<figure>
+<figure class="half">
 <center>
-<img src="./image/Re400/u.gif" width=200/>
-<img src="./image/Re400/v.gif" width=200/>
+<img src="./image/Re400/u.gif" width=200/><img src="./image/Re400/v.gif" width=200/>
 
 gif of the contour for $u$ and $v$
 </center>
-</figure
+</figure>
 
-<figure>
+<figure class="half">
 <center>
-<img src="./image/Re400/streamline.png" width=200/>
-<img src="./image/Re400/u_middle.png" width=240/>
+<img src="./image/Re400/streamline.png" width=200/><img src="./image/Re400/u_middle.png" width=200/>
 
 stream line and $u$ at the middle of the cavity
 </center>
