@@ -22,13 +22,13 @@ end
 
 function makeCase(
     cavity_len::Float64 = 1.,
-    N::Int64 = 100,
+    N::Int64 = 101,
     u_upper::Float64 = 1.,
     Re::Float64 = 100.,
     CFL::Float64 = 0.9,
     dt::Float64 = 0.005,
 )::Case
-    dx::Float64 = cavity_len / N;
+    dx::Float64 = cavity_len / (N-1);
     nu::Float64 = u_upper * cavity_len / Re;
     lambda::Float64 = nu * dt / dx^2;
     return Case(cavity_len, N, dx, u_upper, Re, nu, CFL, dt, lambda);
